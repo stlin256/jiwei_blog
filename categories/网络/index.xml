@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络 on 计算机维护队内部技术博客</title><link>https://scau-jiwei.gitee.io/categories/%E7%BD%91%E7%BB%9C/</link><description>Recent content in 网络 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://scau-jiwei.gitee.io/categories/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>关于老旧系统（WinXP等）浏览器网络访问证书的问题</title><link>https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/</link><pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate><guid>https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/</guid><description>&lt;pre>&lt;code>关于网站访问安全证书等问题
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络 on 计算机维护队内部技术博客</title><link>https://stlin256.github.io/jiwei_blog/categories/%E7%BD%91%E7%BB%9C/</link><description>Recent content in 网络 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stlin256.github.io/jiwei_blog/categories/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml"/><item><title>关于老旧系统（WinXP等）浏览器网络访问证书的问题</title><link>https://stlin256.github.io/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/</link><pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate><guid>https://stlin256.github.io/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/</guid><description>&lt;pre>&lt;code>关于网站访问安全证书等问题
 PS:此文章主要针对老系统(XP)的浏览器网络问题，一些退休老教师仍使用XP
 &lt;/code>&lt;/pre>
 &lt;h1 id="各浏览器对各系统的兼容问题">各浏览器对各系统的兼容问题&lt;/h1>
@@ -10,19 +10,19 @@ PS:此文章主要针对老系统(XP)的浏览器网络问题，一些退休老�
 &lt;/ol>
 &lt;h1 id="浏览器的兼容模式">浏览器的兼容模式&lt;/h1>
 &lt;p>Win10环境下：Chrome和Edge的兼容性一样，不兼容xp，但因为只能向下兼容，所以没显示win11
-&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1.png"
+&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1.png"
 width="695"
 height="850"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1_hu5753d89fdb7cb8aa4377fb99ad076482_301603_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1_hu5753d89fdb7cb8aa4377fb99ad076482_301603_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1_hu5753d89fdb7cb8aa4377fb99ad076482_301603_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/1_hu5753d89fdb7cb8aa4377fb99ad076482_301603_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="1"
 class="gallery-image"
 data-flex-grow="81"
 data-flex-basis="196px"
-> &lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2.png"
+> &lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2.png"
 width="695"
 height="863"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2_hu51362ba34f8d52b8b04955768cb10dfd_280855_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2_hu51362ba34f8d52b8b04955768cb10dfd_280855_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2_hu51362ba34f8d52b8b04955768cb10dfd_280855_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/2_hu51362ba34f8d52b8b04955768cb10dfd_280855_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="2"
 class="gallery-image"
@@ -34,19 +34,19 @@ data-flex-basis="193px"
 “我觉得360做得最好的就是兼容性了”，龙龙如是说。
 兼容模式默认关闭，我这里打开是为了看看可以兼容什么系统，一般能安装都是能用的，不用打开兼容模式
 如果开了兼容模式，浏览器的启动及网页访问耗时都会增加，比较兼容嘛，要兼顾更多东西自然速度就慢了
-&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3.png"
+&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3.png"
 width="682"
 height="843"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3_huc37f84eab0186145b17de13c9eb1e975_268299_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3_huc37f84eab0186145b17de13c9eb1e975_268299_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3_huc37f84eab0186145b17de13c9eb1e975_268299_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/3_huc37f84eab0186145b17de13c9eb1e975_268299_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="3"
 class="gallery-image"
 data-flex-grow="80"
 data-flex-basis="194px"
-> &lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4.png"
+> &lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4.png"
 width="499"
 height="505"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4_hu1edb5847527879ec3fc3dea260db46ad_115204_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4_hu1edb5847527879ec3fc3dea260db46ad_115204_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4_hu1edb5847527879ec3fc3dea260db46ad_115204_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/4_hu1edb5847527879ec3fc3dea260db46ad_115204_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="4"
 class="gallery-image"
@@ -60,10 +60,10 @@ data-flex-basis="237px"
 &lt;li>网络安全证书错误会导致无法正常浏览网页，比较常见的是，电脑的时间设置错误或者电脑的时区设置和地区设置不是同一个地方，会出现网络安全证书错误。
 如下为时间设置错误(win7及以下会提示安全证书错误，win8及以上不直接提示证书错误，但是看网址栏前面https变红意思就是安全证书错误，https是需要安全证书的，后面细说)&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5.png"
 width="1920"
 height="1080"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5_hu0b2798060090a8992bc64b3286864da4_86209_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5_hu0b2798060090a8992bc64b3286864da4_86209_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5_hu0b2798060090a8992bc64b3286864da4_86209_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/5_hu0b2798060090a8992bc64b3286864da4_86209_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="5"
 class="gallery-image"
@@ -71,20 +71,20 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>如下为时区和地区，得设置相同地方（win10环境，发现win10及以上这个设置不同也可以正常访问，windows旧版本还有这个问题）&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6.png"
 width="1594"
 height="855"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6_hu4785013c6f9cc59b1a9a3447104dfc0b_307184_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6_hu4785013c6f9cc59b1a9a3447104dfc0b_307184_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6_hu4785013c6f9cc59b1a9a3447104dfc0b_307184_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/6_hu4785013c6f9cc59b1a9a3447104dfc0b_307184_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="6"
 class="gallery-image"
 data-flex-grow="186"
 data-flex-basis="447px"
 >&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7.png"
 width="1594"
 height="855"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7_hu8b2c7b9ac2b352aad235877d5b3b166e_304631_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7_hu8b2c7b9ac2b352aad235877d5b3b166e_304631_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7_hu8b2c7b9ac2b352aad235877d5b3b166e_304631_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/7_hu8b2c7b9ac2b352aad235877d5b3b166e_304631_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="7"
 class="gallery-image"
@@ -96,10 +96,10 @@ data-flex-basis="447px"
 前面浏览器的兼容性有说，XP下的IE大部分网页的安全证书都无法正常，无法访问https
 大部分网站已不对IE兼容，XP下的IE更惨，以下即为XP下的IE，访问http才进去，网页面目全非&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8.png"
 width="1920"
 height="889"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8_huc8cd91fe420f98a66b3ecc90fd123ea9_127475_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8_huc8cd91fe420f98a66b3ecc90fd123ea9_127475_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8_huc8cd91fe420f98a66b3ecc90fd123ea9_127475_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/8_huc8cd91fe420f98a66b3ecc90fd123ea9_127475_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="8"
 class="gallery-image"
@@ -107,10 +107,10 @@ data-flex-grow="215"
 data-flex-basis="518px"
 >&lt;/p>
 &lt;p>访问https直接网络错误无法访问，跳转链接的时候会提示证书问题。&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9.png"
 width="1920"
 height="884"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9_hu90c14a51571621784278fd0803cffc9d_109299_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9_hu90c14a51571621784278fd0803cffc9d_109299_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9_hu90c14a51571621784278fd0803cffc9d_109299_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/9_hu90c14a51571621784278fd0803cffc9d_109299_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="9"
 class="gallery-image"
@@ -118,10 +118,10 @@ data-flex-grow="217"
 data-flex-basis="521px"
 >&lt;/p>
 &lt;p>百度的网页还兼容XP的IE，不过也会提示证书错误，即使证书是在有效期，只能进去http。&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10.png"
 width="1446"
 height="747"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10_hu5ebfdfafb560f4ce4a6af2ae6d700d04_854960_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10_hu5ebfdfafb560f4ce4a6af2ae6d700d04_854960_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10_hu5ebfdfafb560f4ce4a6af2ae6d700d04_854960_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/10_hu5ebfdfafb560f4ce4a6af2ae6d700d04_854960_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="10"
 class="gallery-image"
@@ -140,10 +140,10 @@ HTTPS协议是由SSL/TLS+HTTP协议构建的可进行加密传输、身份认证
 4、http的连接很简单，是无状态的；HTTPS协议是由SSL/TLS+HTTP协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。
 目前大部分网站都是采用了https，同时也保留了http访问
 学校的OJ网站采用的就是http(大概是内网不用太担心安全才用这个)&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11.png"
 width="481"
 height="44"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11_hudb9b133adae6ee044a9141615215a5ec_3812_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11_hudb9b133adae6ee044a9141615215a5ec_3812_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11_hudb9b133adae6ee044a9141615215a5ec_3812_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/11_hudb9b133adae6ee044a9141615215a5ec_3812_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="11"
 class="gallery-image"
@@ -151,10 +151,10 @@ data-flex-grow="1093"
 data-flex-basis="2623px"
 >&lt;/p>
 &lt;p>我们小组之前接到一个住在嵩山的老爷爷的任务，如下&lt;/p>
-&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12.png"
+&lt;p>&lt;img src="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12.png"
 width="863"
 height="200"
-srcset="https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12_hu996d92fe54f7e7dc47eaddb4304d8c3a_24492_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12_hu996d92fe54f7e7dc47eaddb4304d8c3a_24492_1024x0_resize_box_3.png 1024w"
+srcset="https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12_hu996d92fe54f7e7dc47eaddb4304d8c3a_24492_480x0_resize_box_3.png 480w, https://stlin256.github.io/jiwei_blog/jiwei_blog/p/%E5%85%B3%E4%BA%8E%E8%80%81%E6%97%A7%E7%B3%BB%E7%BB%9Fwinxp%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E8%AF%81%E4%B9%A6%E7%9A%84%E9%97%AE%E9%A2%98/12_hu996d92fe54f7e7dc47eaddb4304d8c3a_24492_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="12"
 class="gallery-image"
