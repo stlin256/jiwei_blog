@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=36577&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='设备管理器の一些小技巧 目录 导言 打开设备管理器 主要作用 界面介绍 驱动介绍 当设备出现问题&amp;hellip; 导言 设备管理器（Device Manager'><title>设备管理器の一些小技巧</title>
+
+<link rel='canonical' href='http://localhost:36577/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/'>
+
+<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='设备管理器の一些小技巧'>
+<meta property='og:description' content='设备管理器の一些小技巧 目录 导言 打开设备管理器 主要作用 界面介绍 驱动介绍 当设备出现问题&amp;hellip; 导言 设备管理器（Device Manager'>
+<meta property='og:url' content='http://localhost:36577/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/'>
+<meta property='og:site_name' content='计算机维护队内部技术博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='计维卿卿' /><meta property='article:tag' content='计维牛爷爷' /><meta property='article:tag' content='计维困' /><meta property='article:tag' content='计维求神奇' /><meta property='article:published_time' content='2023-11-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-11-17T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="设备管理器の一些小技巧">
+<meta name="twitter:description" content="设备管理器の一些小技巧 目录 导言 打开设备管理器 主要作用 界面介绍 驱动介绍 当设备出现问题&amp;hellip; 导言 设备管理器（Device Manager">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hud25428d4ca418f049aa89038d1a4572c_697647_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">计算机维护队内部技术博客</a></h1>
+            <h2 class="site-description">In solitude, where we are least alone.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href=''
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:36577/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8/" >
+                设备管理器
+            </a>
+        
+            <a href="/categories/%E9%A9%B1%E5%8A%A8/" >
+                驱动
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/">设备管理器の一些小技巧</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2023年, 11月17日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="设备管理器の一些小技巧">设备管理器の一些小技巧</h1>
+<h2 id="目录">目录</h2>
+<ul>
+<li><a class="link" href="#%e5%af%bc%e8%a8%80" >导言</a></li>
+<li><a class="link" href="#%e4%b8%80%e5%a6%82%e4%bd%95%e6%89%93%e5%bc%80%e8%ae%be%e5%a4%87%e7%ae%a1%e7%90%86%e5%99%a8" >打开设备管理器</a></li>
+<li><a class="link" href="#%e4%ba%8c%e4%b8%bb%e8%a6%81%e4%bd%9c%e7%94%a8" >主要作用</a></li>
+<li><a class="link" href="#%e4%b8%89%e7%95%8c%e9%9d%a2%e4%bb%8b%e7%bb%8d" >界面介绍</a></li>
+<li><a class="link" href="#%e5%9b%9b%e9%a9%b1%e5%8a%a8%e4%bb%8b%e7%bb%8d" >驱动介绍</a></li>
+<li><a class="link" href="#%e4%ba%94%e8%ae%be%e5%a4%87%e5%87%ba%e7%8e%b0%e4%ba%86%e9%94%99%e8%af%af" >当设备出现问题&hellip;</a></li>
+</ul>
+<h3 id="导言">导言</h3>
+<p>设备管理器（Device Manager）是Windows操作系统中的一个内置工具，它提供了一个允许用户查看和控制已安装在计算机上硬件设备的界面。我们可以使用设备管理器来安装、更新、禁用、启用或卸载驱动程序，以及解决设备冲突和其他硬件相关问题</p>
+<h2 id="一如何打开设备管理器">一、如何打开设备管理器</h2>
+<ol>
+<li><!-- raw HTML omitted -->Win<!-- raw HTML omitted -->+<!-- raw HTML omitted -->X<!-- raw HTML omitted --> , 然后点选设备管理器</li>
+<li>或者右键任务栏左侧Win图标，然后点选设备管理器</li>
+</ol>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1.jpg"
+	width="361"
+	height="1051"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1_hu82f85a382266e97193962b5427c9a1d7_91025_480x0_resize_q75_box.jpg 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1_hu82f85a382266e97193962b5427c9a1d7_91025_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="Open it"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="34"
+		data-flex-basis="82px"
+	
+></p>
+<ol start="3">
+<li>又或者<!-- raw HTML omitted -->Win<!-- raw HTML omitted -->+<!-- raw HTML omitted -->R<!-- raw HTML omitted --> , 然后输入<code>devmgmt.dsc</code></li>
+</ol>
+<h2 id="二主要作用">二、主要作用</h2>
+<ol>
+<li><strong>查看设备状态</strong>：设备管理器列出了计算机上所有已识别的硬件设备，包括但不限于声卡、显卡、网络适配器、打印机等。每个设备都有一个状态图标，显示该设备是否正常工作。</li>
+<li><strong>驱动程序管理</strong>：用户可以右击设备来更新其驱动程序、回滚到先前版本的驱动程序或完全卸载驱动程序。</li>
+<li><strong>解决硬件冲突</strong>：如果两个设备冲突或某个设备出现问题，设备管理器会显示一个黄色的警告图标。用户可以进一步查看错误信息，以帮助诊断和解决问题。</li>
+<li><strong>禁用和启用设备</strong>：如果用户不希望某个设备在某段时间内工作，他们可以通过设备管理器来临时禁用它，而不必完全从计算机中移除它。</li>
+<li><strong>查看设备属性</strong>：用户可以查看每个设备的详细属性，如制造商、驱动程序版本、端口设置等。</li>
+</ol>
+<blockquote>
+<p>设备管理器是诊断和解决Windows计算机上的硬件问题的重要工具。通过它，用户可以管理他们计算机上的所有设备和相关驱动程序，它相当于电脑设备的全面解剖图。</p>
+</blockquote>
+<h2 id="三界面介绍">三、界面介绍</h2>
+<p>设备管理器的界面上罗列着电脑所有常用的设备及其子选项</p>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui.png"
+	width="550"
+	height="404"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui_hu9343bdde4b1e3856f5c939474bf4cc27_74785_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui_hu9343bdde4b1e3856f5c939474bf4cc27_74785_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="UI"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="326px"
+	
+></p>
+<h3 id="常见的选项">常见的选项：</h3>
+<h3 id="1处理器cpu">1.处理器（CPU）</h3>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29.png"
+	width="500"
+	height="515"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29_hud08e194a2d2890fdb5c4c9c169f69f80_184708_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29_hud08e194a2d2890fdb5c4c9c169f69f80_184708_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="CPU"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="97"
+		data-flex-basis="233px"
+	
+></p>
+<h3 id="2磁盘驱动器">2.磁盘驱动器</h3>
+<h3 id="3键盘驱动">3.键盘驱动</h3>
+<h3 id="4鼠标驱动">4.鼠标驱动</h3>
+<h3 id="5显示适配器">5.显示适配器：</h3>
+<ul>
+<li>即显卡，用于控制显示器的正常显示。</li>
+</ul>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu.png"
+	width="400"
+	height="251"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu_hua67cb5a62606dce77c216b64f42fb389_58385_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu_hua67cb5a62606dce77c216b64f42fb389_58385_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="GPU"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="382px"
+	
+></p>
+<h3 id="6系统设备">6.系统设备</h3>
+<p><strong>即系统识别出来的硬件设备，包括CPU、声卡、显卡、bios等。</strong><br>
+<strong>右键</strong> 某一设备后，可以看见：</p>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29.png"
+	width="500"
+	height="313"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29_hubb75365d86da009129f74f3981f2c4e2_123361_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29_hubb75365d86da009129f74f3981f2c4e2_123361_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Options"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="383px"
+	
+></p>
+<ol>
+<li>更新设备驱动</li>
+<li>卸载设备（驱动）：
+<ul>
+<li>可以将当前设备的驱动卸载掉</li>
+</ul>
+</li>
+<li>扫描检测硬件改动</li>
+</ol>
+<blockquote>
+<p><em>如遇上因联想小新显卡虚焊而产生的图形显示问题，可以尝试在此禁用独显的驱动程序</em><br>
+<em>如联想拯救者麦克风输入音量小，可以在此更改麦克风的驱动来修复问题</em></p>
+</blockquote>
+<ol start="4">
+<li>属性：
+<ul>
+<li>可以查看该设备目前驱动的版本号、驱动更新日期、驱动提供方</li>
+</ul>
+</li>
+</ol>
+<h2 id="四驱动介绍">四、驱动介绍</h2>
+<h3 id="1驱动是什么">1.驱动是什么</h3>
+<p>驱动，计算机软件术语，是指驱使计算机里硬件动作的软件程序。驱动是添加到操作系统中的特殊程序，其中包含有关硬件设备的信息。此信息能够使计算机与相应的设备进行通信。驱动程序是硬件厂商根据操作系统编写的配置文件，可以说没有驱动程序，计算机中的硬件就无法工作。</p>
+<p>应用程序开发者不用关心目标用户使用什么硬件，硬件厂家不用关心目标用户用什么应用。而两者只需要关心使用的是什么操作系统，以此为目的为操作系统开发的可执行程序就是驱动。</p>
+<p>若有更为恰当的比喻，那么驱动是一位翻译官，将系统的想要硬件完成的操作转换成硬件能够理解的信号，使其发挥硬件的功能。</p>
+<h3 id="2如何安装更新驱动">2.如何安装/更新驱动</h3>
+<ol>
+<li>
+<p>利用设备管理器：</p>
+<ol>
+<li>
+<p>自动处理：<br>
+①	打开设备管理器窗口，点开有问题的设备列表。<br>
+②	右键对应设备，选择更新驱动程序。<br>
+③	选择自动搜索驱动程序。<br>
+④	之后系统在 <!-- raw HTML omitted -->联网状态<!-- raw HTML omitted --> 下自动更新驱动。</p>
+</li>
+<li>
+<p>手动更新：<br>
+① 右键对应设备，选择更新驱动程序。<br>
+② 选择手动查找并安装驱动程序</p>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29.png"
+	width="300"
+	height="230"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29_hud4298c9e27bfd3f2668d793e9e58cdcb_16891_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29_hud4298c9e27bfd3f2668d793e9e58cdcb_16891_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Step 2"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="313px"
+	
+></p>
+<p>③  选择让我从计算机上的可用驱动程序列表中选取</p>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29.png"
+	width="300"
+	height="188"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29_hubf78db93f4d683a8c1505f155b23100e_17130_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29_hubf78db93f4d683a8c1505f155b23100e_17130_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Step 3"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="382px"
+	
+></p>
+<p>④  选择需要的驱动程序并安装</p>
+</li>
+</ol>
+</li>
+<li>
+<p>查找驱动安装程序坐在目录<br>
+在文件管理器中搜索 “Drivers” 文件，打开后便能看到所有驱动的安装程序</p>
+</li>
+<li>
+<p>上OEM厂家或是相关设备厂家的官网查询并下载安装程序</p>
+</li>
+</ol>
+<h2 id="五设备出现了错误">五、设备出现了错误</h2>
+<h3 id="1通用的处理流程">1.通用的处理流程</h3>
+<p>针对驱动出现故障的设备，可以在设备管理器中，右键出现黄色感叹号的设备，选择更新驱动程序尝试解决。</p>
+<p>或者右键点击该设备，在设备位置中查找错误代码，然后根据设备管理器错误代码列表，了解下一步该如何做。</p>
+<ul>
+<li>
+<p>查看错误代码：</p>
+<ol>
+<li>打开设备的属性，然后选择详细信息</li>
+</ol>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29.png"
+	width="300"
+	height="359"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29_hu620093a00c35306fd90507a9617aa59b_27170_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29_hu620093a00c35306fd90507a9617aa59b_27170_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Detail"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="83"
+		data-flex-basis="200px"
+	
+></p>
+<ol start="2">
+<li>在属性选项处选择错误代码</li>
+</ol>
+<p><img src="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29.png"
+	width="500"
+	height="313"
+	srcset="/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29_huc7a894ca6448d65b5d2bd1dccd2e9764_26758_480x0_resize_box_3.png 480w, /p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29_huc7a894ca6448d65b5d2bd1dccd2e9764_26758_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Code"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="383px"
+	
+></p>
+</li>
+</ul>
+<p>可以上 <strong><a class="link" href="%28https://support.microsoft.com/zh-cn/topic/windows-%E4%B8%AD-%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8-%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81-524e9e89-4dee-8883-0afa-6bca0456324e%29" >微软官网</a></strong> 查询错误代码</p>
+<h3 id="一些例子">一些例子</h3>
+<ol>
+<li>
+<p><strong>鼠标、U盘等外设出现问题</strong>：<br>
+①	重新插拔下设备，保证设备正确连接<br>
+②	使用设备管理器更新驱动<br>
+③	使用驱动精灵或者驱动人生等第三方软件更新修复驱动</p>
+</li>
+<li>
+<p><strong>指纹识别驱动错误</strong>:<br>
+在锁屏界面触摸指纹感应器（电源键）时，感应器无反应，即屏幕不显示任何错误提示；并且进入指纹设置，删除指纹模板重新录入时触摸电源键仍无反应</p>
+<ul>
+<li>这有可能是系统升级导致加载Intel ME驱动异常所致的</li>
+</ul>
+<p>解决方法：</p>
+<ol>
+<li>将电脑更新一次后重启，系统会自动更新，如果关机的时候会出现“更新并关机”选项，那基本上重启后应该就能解决了</li>
+<li>打开设备管理器，找到生物识别设备，看看里面有没个黄色三角，有的话就好办了，右键单击更新，随后重新录入指纹即可</li>
+<li>把生物驱动中的指纹识别驱动卸载了，再在官网上重新下载一个</li>
+</ol>
+</li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E8%AE%A1%E7%BB%B4%E5%8D%BF%E5%8D%BF/">计维卿卿</a>
+        
+            <a href="/tags/%E8%AE%A1%E7%BB%B4%E7%89%9B%E7%88%B7%E7%88%B7/">计维牛爷爷</a>
+        
+            <a href="/tags/%E8%AE%A1%E7%BB%B4%E5%9B%B0/">计维困</a>
+        
+            <a href="/tags/%E8%AE%A1%E7%BB%B4%E6%B1%82%E7%A5%9E%E5%A5%87/">计维求神奇</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>CC-BY-NC-SA</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2022 - 
+        
+        2025 计算机维护队内部技术博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.13.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>GitHub on 计算机维护队内部技术博客</title>
+        <link>http://localhost:36577/categories/github/</link>
+        <description>Recent content in GitHub on 计算机维护队内部技术博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:36577/categories/github/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>申请GitHub Student Pack教育优惠</title>
+        <link>http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/</link>
+        <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/</guid>
+        <description>&lt;h1 id=&#34;申请github-student-pack教育优惠&#34;&gt;申请GitHub Student Pack教育优惠&lt;/h1&gt;
+&lt;h3 id=&#34;导言&#34;&gt;导言&lt;/h3&gt;
+&lt;p&gt;我们都知道，GitHub的学生包里包含着很多免费好用的资源，&lt;/p&gt;
+&lt;p&gt;从免费域名到免费服务器，还有各种IDE以及软件的高级版等，&lt;/p&gt;
+&lt;p&gt;而这些都只需要一个edu邮箱即可申请！&lt;/p&gt;
+&lt;p&gt;跟随下面的步骤，教你如何获取SCAU的edu邮箱，再申请GitHub Student Pack教育优惠。&lt;/p&gt;
+&lt;h2 id=&#34;获取scau的edu邮箱&#34;&gt;获取SCAU的EDU邮箱&lt;/h2&gt;
+&lt;h3 id=&#34;1登录信息门户&#34;&gt;1.登录信息门户&lt;/h3&gt;
+&lt;p&gt;信息门户的网址是：&lt;a class=&#34;link&#34; href=&#34;https://portal.scau.edu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://portal.scau.edu.cn/&lt;/a&gt;，&lt;/p&gt;
+&lt;p&gt;用自己的学号以及密码登陆之后，左上角便是我们的邮箱注册入口（如图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img01.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img01_huf9885d0c72e216fd3bcb18a9bb721bcf_783788_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img01_huf9885d0c72e216fd3bcb18a9bb721bcf_783788_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;邮箱注册入口&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;424px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2注册邮箱&#34;&gt;2.注册邮箱&lt;/h3&gt;
+&lt;p&gt;点击邮箱注册入口，进入邮箱注册流程(如图)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img02.png&#34;
+	width=&#34;561&#34;
+	height=&#34;549&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img02_hud6341f8d5a7cf3c5df32cf60b09d3699_36525_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img02_hud6341f8d5a7cf3c5df32cf60b09d3699_36525_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;邮箱注册流程&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;245px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;此处的账号经过多方咨询后得到的回复是没有硬性要求（不同学院可能有不同要求，建议先问一下学长，数信好像没有要求），&lt;/p&gt;
+&lt;p&gt;密码设置自己的常用密码即可，完成后点击“注册”即可。&lt;/p&gt;
+&lt;h3 id=&#34;3登录邮箱&#34;&gt;3.登录邮箱&lt;/h3&gt;
+&lt;p&gt;注册完成后，以后每次登录信息门户即可进入邮箱，&lt;/p&gt;
+&lt;p&gt;点击“查看详情”即可进入邮箱界面（如图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img03.png&#34;
+	width=&#34;544&#34;
+	height=&#34;309&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img03_huec4fabd995a90221f0f15c1b9b9f22a6_15549_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img03_huec4fabd995a90221f0f15c1b9b9f22a6_15549_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;登录邮箱&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;422px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;至此，我们的edu邮箱已经注册完成，接下来就是申请GitHub Student Pack教育优惠了&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;申请github-student-pack教育优惠-1&#34;&gt;申请GitHub Student Pack教育优惠&lt;/h2&gt;
+&lt;h3 id=&#34;1注册登录github&#34;&gt;1.注册登录GitHub&lt;/h3&gt;
+&lt;p&gt;对于没有GitHub账号的同学，可以先注册一个GitHub账号，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：由于懂得都懂的原因，请自行解决网络问题，本文不提供具体方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GitHub的注册地址是：&lt;a class=&#34;link&#34; href=&#34;https://www.github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.github.com&lt;/a&gt;，关于GitHub的注册，这里就不再赘述了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img04.png&#34;
+	width=&#34;3200&#34;
+	height=&#34;1714&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img04_hueaae28896313598079cccafea3cec167_855303_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img04_hueaae28896313598079cccafea3cec167_855303_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Github&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2申请github-student-pack&#34;&gt;2.申请GitHub Student Pack&lt;/h3&gt;
+&lt;p&gt;登录 GitHub 后，打开 &lt;a class=&#34;link&#34; href=&#34;https://education.github.com/discount_requests/application&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://education.github.com/discount_requests/application&lt;/a&gt; 即可进入 GitHub Student Pack 教育优惠申请页面，如图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img05.png&#34;
+	width=&#34;2539&#34;
+	height=&#34;1653&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img05_hud5e34e4eb0d7b69f1ab15660ad16d72c_177170_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img05_hud5e34e4eb0d7b69f1ab15660ad16d72c_177170_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Github Student Pack&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我们选择 “Student”，然后往下滚动，按照下图进行填写操作&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img06.png&#34;
+	width=&#34;1688&#34;
+	height=&#34;1665&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img06_hua8a96b66149cd9a60e85f4b7d35eaae9_257598_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img06_hua8a96b66149cd9a60e85f4b7d35eaae9_257598_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Github Student Pack&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;完成填写后点击“Continue”，之后就会有通过验证的邮件发送给你。&lt;/p&gt;
+&lt;p&gt;当你刷新页面后看到右侧有如下图的提示时，说明你已经申请成功了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img07.png&#34;
+	width=&#34;709&#34;
+	height=&#34;375&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img07_hu0c023a2d9bccf3bf97fa6d9a658dced9_35641_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img07_hu0c023a2d9bccf3bf97fa6d9a658dced9_35641_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Github Student Pack&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;189&#34;
+		data-flex-basis=&#34;453px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接下来，我们就可以享受GitHub Student Pack教育优惠了。&lt;/p&gt;
+&lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://education.github.com/pack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://education.github.com/pack&lt;/a&gt;可以看到我们可以享受的优惠，如图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img08.png&#34;
+	width=&#34;3200&#34;
+	height=&#34;1714&#34;
+	srcset=&#34;http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img08_hu0720b3c4d87b07276a9146ada4be4384_380188_480x0_resize_box_3.png 480w, http://localhost:36577/p/%E7%94%B3%E8%AF%B7github-student-pack%E6%95%99%E8%82%B2%E4%BC%98%E6%83%A0/img08_hu0720b3c4d87b07276a9146ada4be4384_380188_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Github Student Pack&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Enjoy it！感谢你的耐心阅读。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
