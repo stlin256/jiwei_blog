@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>委员团 on 计算机维护队内部技术博客</title><link>https://scau-jiwei.gitee.io/tags/%E5%A7%94%E5%91%98%E5%9B%A2/</link><description>Recent content in 委员团 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://scau-jiwei.gitee.io/tags/%E5%A7%94%E5%91%98%E5%9B%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>计维博客撰写规范</title><link>https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/</link><pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate><guid>https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/</guid><description>&lt;h1 id="计维博客撰写规范">计维博客撰写规范&lt;/h1>
+&lt;blockquote>
+&lt;p>尽管你的markdown十分符合markdown语法，在本地的预览也并没有问题，但为什么还是会被委员指出格式问题，并要求修改呢？&lt;/p>
+&lt;p>本篇博客揭晓。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="一front-matter前置信息">一、Front Matter（前置信息）&lt;/h2>
+&lt;blockquote>
+&lt;p>Front Matter的本质是一串YAML格式的文本，用于指定文章的一些属性，如标题、描述、日期、许可证、是否为草稿、是否隐藏等信息。&lt;/p>
+&lt;p>因此，Front Matter的填写要符合YAML语法。&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>&lt;strong>缩进：&lt;/strong> &lt;del>YAML 使用缩进表示层次结构，通常是两个空格或四个空格。子项的缩进必须与其父项相匹配。&lt;/del>&lt;/li>
+&lt;/ol>
+&lt;p>在填写&lt;code>tags&lt;/code>或者&lt;code>categories&lt;/code>的时候，有一定的层级关系，可以使用空格，但不可以使用&lt;strong>tab制表符&lt;/strong>！！&lt;/p>
+&lt;p>例：&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B.png"
+width="1115"
+height="198"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B_hu5751a546cea2303bd3367b23192ff832_13168_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B_hu5751a546cea2303bd3367b23192ff832_13168_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="空格"
+class="gallery-image"
+data-flex-grow="563"
+data-flex-basis="1351px"
+>
+四点代表四个空格。&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B2.png"
+width="1144"
+height="122"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B2_hu76080d43a53359c6fef16ca3c267ae46_7674_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E8%A7%84%E8%8C%83/%E7%BC%A9%E8%BF%9B2_hu76080d43a53359c6fef16ca3c267ae46_7674_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="tab"
+class="gallery-image"
+data-flex-grow="937"
+data-flex-basis="2250px"
+>&lt;/p>
+&lt;p>此为tab。&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>键值对：&lt;/strong> &lt;del>使用冒号来分隔键和值，键值对之间用冒号后的空格分隔。&lt;/del>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">value&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c">#例如&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;计维博客撰写规范&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>在&lt;code>key:&lt;/code>后面需要一个&lt;strong>空格&lt;/strong>。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">tags&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">CBY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">硬件&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">路由器&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>在&lt;code>-&lt;/code>的后面也需要一个空格&lt;/p>
+&lt;h2 id="二图片">二、图片&lt;/h2>
+&lt;p>&lt;strong>图片的撰写格式不能带有路径&lt;/strong>&lt;/p>
+&lt;p>尽管这样撰写符合markdown语法，但是会导致Hugo博客框架无法找到图片，只能做出妥协&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>![]()&lt;/code>格式&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">我是图片&lt;/span>](&lt;span class="na">./img1.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 这里面的./便是路径
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 正确写法如下：
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>![&lt;span class="nt">我是图片&lt;/span>](&lt;span class="na">img.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>&lt;code>![][]&lt;/code>格式&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![我是图图][1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[1]: ./1.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![4090][2]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[2]: ./4090/ROG.jpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>错误写法如上&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 以上两种都是带路径的写法
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 第一个可以改为
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>![我是图图][1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[1]: 1.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 第二个是以文件夹的形式存放图片，这必然会有路径问题
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># 因此不能使用文件夹来分类存放博客图片，而是全部堆在根目录（┭┮﹏┭┮没办法）
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

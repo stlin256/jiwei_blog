@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>硬件 on 计算机维护队内部技术博客</title><link>https://scau-jiwei.gitee.io/categories/%E7%A1%AC%E4%BB%B6/</link><description>Recent content in 硬件 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://scau-jiwei.gitee.io/categories/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>A小组本月修机心得体会</title><link>https://scau-jiwei.gitee.io/p/a%E5%B0%8F%E7%BB%84%E6%9C%AC%E6%9C%88%E4%BF%AE%E6%9C%BA%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate><guid>https://scau-jiwei.gitee.io/p/a%E5%B0%8F%E7%BB%84%E6%9C%AC%E6%9C%88%E4%BF%AE%E6%9C%BA%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/</guid><description>&lt;h1 id="a小组本月修机心得体会">A小组本月修机心得体会&lt;/h1>
+&lt;h2 id="修机注意事项">修机注意事项&lt;/h2>
+&lt;h3 id="拆机">拆机&lt;/h3>
+&lt;ol>
+&lt;li>在询问机主之前，先了解电脑是否在保修期内，如果在保修期内，需提醒机主拆开笔记本可能会导致保修失效。&lt;/li>
+&lt;li>在拆卸过程中，需要按照以下步骤进行操作&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>检查是否启用了BitLocker加密，若已启用，需要先解除加密。&lt;/li>
+&lt;li>关机并断开电源和排线。&lt;/li>
+&lt;li>注意放置静电，以避免对主板等敏感部件造成损害。&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>注意着装，尽量避免穿着有长兜帽绳子的衣物，以免与主板接触导致意外损坏。&lt;/li>
+&lt;/ol>
+&lt;h3 id="具体情形">具体情形&lt;/h3>
+&lt;ul>
+&lt;li>电脑进过水显示器通电但无画面&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>按下电脑开机键，观察CPU风扇是否转动，若不转动则大概率劝退；&lt;/li>
+&lt;li>若转动则尝试把内存条取出，用橡皮擦把金手指擦一下，也可擦下显卡的。&lt;/li>
+&lt;li>由于黑屏备不了份，且修机时接电源线后断不了电，所以在拆机时注意除静电且使用塑料翘板，注意安全！&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>键盘故障处理&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>如果存在键盘故障，首先外接一个键盘，检查原本故障的键位是否能正常使用，若可以正常使用，则有可能是键盘硬件问题，建议用户申请保修。&lt;/li>
+&lt;li>如果外接键盘仍有故障，尝试更新键盘驱动程序，如果更新失败，建议用户申请保修。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>台式电脑主板VGA灯常亮白光很可能是显卡问题&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>首先检查电脑各个零件是否正确连接，确保没有松动或接触不良的情况。&lt;/li>
+&lt;li>尝试使用橡皮擦清洁内存条和显卡的触片。&lt;/li>
+&lt;li>尝试安装其他显卡，如果成功开机，则说明原显卡损坏，建议用户更换显卡。&lt;/li>
+&lt;li>尝试更换显卡后仍然无法解决问题，则建议用户申请保修。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>台式电脑通电开机时主板完全没有反应&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>首先检查电源是否正常工作，可以尝试更换一个电源，如果更换后电脑正常开机，则说明原电源故障，建议用户购买新的电源。&lt;/li>
+&lt;li>如果更换电源后问题仍然存在，考虑到可能是主板问题。可以尝试取下主板上的CMOS电池，等待5分钟后重新放回，检查是否能够恢复正常工作。&lt;/li>
+&lt;li>如果依旧无法解决问题，则建议用户申请保修。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>机主电脑无法正常开机且显示memory management&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>依照正常步骤拆机，尝试使用橡皮擦清洁内存条的触片&lt;/li>
+&lt;li>擦拭完毕后插入内存条，注意各配件安装位置&lt;/li>
+&lt;/ol>
+&lt;h3 id="不同机型及配件注意事项">不同机型及配件注意事项&lt;/h3>
+&lt;ul>
+&lt;li>联想小新&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>该型号经常出现主板静电问题导致无法开机的情况，可以尝试释放静电。&lt;/li>
+&lt;li>如果释放静电后仍然无法开机，建议用户申请保修。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>联想y7000&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>后盖上的11颗螺钉，上5颗下6颗，上半部分螺丝长，下半部分的短。&lt;/li>
+&lt;li>老模具拆后盖时要注意有条缝在C面。&lt;/li>
+&lt;li>内存条外面有个方形散热壳，可以直接撬开。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>惠普暗影精灵9&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>后盖两种螺丝，4长4短&lt;/li>
+&lt;li>固态散热是双层散热片要先抠开，撕掉保护膜之后将硬盘插进底下那片散热片，然后一并斜插进M2接口，最后盖上上面的散热片。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>惠普游匣G15&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>后盖有八颗螺丝，中间四颗不可拆下，为固定螺丝。先拆开四角四颗螺丝，再拧松中间四颗，使用翘片拆开卡扣即可。&lt;/li>
+&lt;li>屁股有四颗螺丝，背面两颗，顶部两颗，拧去叩开两边卡扣即可拔开。&lt;/li>
+&lt;li>主板是倒装的，想要清灰换硅脂需要整个取下主板才能进行。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>华硕天选3&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>螺丝型号不一样，拧螺丝时候注意按顺序摆放。&lt;/li>
+&lt;li>拔电源排线方式比较特殊，需要先推开金属卡扣，再垂直主板往上拔电源排线，而不是直接往外拉扯。&lt;/li>
+&lt;li>固态压网卡。&lt;/li>
+&lt;li>右下角的螺丝为弹簧螺丝，不能拆下来。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>幻14&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>右下角为弹簧螺丝，但是它的弹簧螺丝比天选犀系列好很多，一拧松自动摊开后盖可以直接徒手开机。&lt;/li>
+&lt;li>电源排线的金属卡扣不要大力出奇迹，很容易弄坏。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>戴尔g15&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>主板反装导致很多接线在主板背面拆机装回后要注意检查接口是否接完。&lt;/li>
+&lt;li>是否拧好全部螺丝是戴尔G系列电脑开机自检条件之一。&lt;/li>
+&lt;li>电源灯有黄白两种颜色，不同或相同颜色闪烁是故障信息，例如亮黄三白闪烁有可能是内存条问题。&lt;/li>
+&lt;li>拆装完成开机时要按开机键久一些，大概两分钟。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>宏碁暗影骑士.擎&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>拆装时先拧螺丝，然后拆屁股，再拆后盖，这样简单很多。&lt;/li>
+&lt;li>要注意螺丝机身螺丝左右数量不对称，左边四个右边三个。&lt;/li>
+&lt;li>装好屁股才能拧螺丝，拧下螺丝才能拆屁股。&lt;/li>
+&lt;li>装屁股时要注意卡扣是否扣好，不然会出现一条大缝，导致后续无法正确拧螺丝。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>TUF B550m主板&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>cpu风扇以及机箱风扇接口位置比较分散，而且其位置特殊导致后期理线有点麻烦。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>学校台式电脑&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>过一段时间要将电脑和显示器电源线拔出来互换一下才能开机，十分玄学，而且这个问题大规模出现在数信学院的电脑机房里。&lt;/li>
+&lt;li>电脑无法开机而且滴滴滴响个不停则需要拆机拔出内存条擦一下金手指再装回去。&lt;/li>
+&lt;li>鼠标挂在显示器上面的无法开机电脑是其他难以修理的故障，学生不用管。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>学校的联想商用机&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>拔电源线&lt;/li>
+&lt;li>拧下机箱后面的两颗螺丝&lt;/li>
+&lt;li>按下机身左边的开关&lt;/li>
+&lt;li>抓住机箱后面的侧板凹槽往外拉&lt;/li>
+&lt;/ol></description></item><item><title>从零开始的台式机装机教程</title><link>https://scau-jiwei.gitee.io/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8F%B0%E5%BC%8F%E6%9C%BA%E8%A3%85%E6%9C%BA%E6%95%99%E7%A8%8B/</link><pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate><guid>https://scau-jiwei.gitee.io/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8F%B0%E5%BC%8F%E6%9C%BA%E8%A3%85%E6%9C%BA%E6%95%99%E7%A8%8B/</guid><description>&lt;h2 id="装机准备">装机准备&lt;/h2>
+&lt;p>沉稳的心态&lt;/p>
+&lt;p>足够大的干净整洁空间，用来有序地放置各种物品&lt;/p>
+&lt;p>机箱、电源、主板、CPU、散热器、显卡、硬盘、内存条、显示器&lt;/p>
+&lt;p>配套螺丝、供电线、显示器连接线等&lt;/p>
+&lt;p>一把好用的十字螺丝刀&lt;/p>
+&lt;h2 id="装机步骤">装机步骤&lt;/h2>
+&lt;p>洗手，擦干，释放静电，深呼吸，准备开始！&lt;/p>
+&lt;h3 id="检查机箱">检查机箱&lt;/h3>
+&lt;p>检查机箱的类型和大小，观察机箱空间是否足够装下所有电脑器件；优先确认CPU散热器是否高度足够与显卡长度是否足够。&lt;/p>
+&lt;p>观察电源位置，上置电源与下置电源的安装方法有些许不同；&lt;/p>
+&lt;p>安装机箱的I/O面板，装好螺柱。（现在的许多机箱已经预先安装好了）&lt;/p>
+&lt;p>观察可供安装风扇的位置，模拟一下机箱从哪里进风从哪里出风，在后续安装风扇时注意排气朝向，确保空气是往一个方向流通的。&lt;/p>
+&lt;h3 id="安装电源">安装电源&lt;/h3>
+&lt;p>打开机箱侧面板。&lt;/p>
+&lt;p>取出电源和设备供电线，将所有供电线（包括CPU供电线、主板供电线、显卡供电线等）依照电源上的图示插好；&lt;/p>
+&lt;p>（以下置电源为例）将电源的风扇面朝上（可以更好地进行自然散热），将电源置入机箱底部的电源槽，使电源供电插口和电源开关位于机箱背面；在机箱背面用螺丝固定好电源。最后将供电线大致理顺以便后续的装机步骤。&lt;/p>
+&lt;h3 id="取出主板">取出主板&lt;/h3>
+&lt;p>将主板包装盒打开，取出主板。放置在平面上。（可以取出包装盒内的海绵板放在桌面，再将主板平放在海绵板上。）观察主板自带的螺丝孔能与机箱上哪些螺丝孔对齐。&lt;/p>
+&lt;h3 id="安装cpu">安装CPU&lt;/h3>
+&lt;p>CPU（中央处理器）&lt;/p>
+&lt;p>取出CPU，打开主板上的CPU扣具，取下扣具的盖板；将CPU对准方向小心平放入插槽，合上扣具即可。&lt;/p>
+&lt;p>Intel的CPU一般扣具模式为弹簧扣盖，需要先将弹簧销（即扣具一侧的小棒子）向外推出，此时弹簧销会自然弹起，扣具也会松动，接下来就可以打开扣具了；AMD的CPU一般没有扣具，小心将CPU安放至主板的CPU插槽上即可直接涂抹硅脂安装散热器。&lt;/p>
+&lt;h3 id="安装内存条">安装内存条&lt;/h3>
+&lt;p>单根内存选2号位，双根内存优先选2号位和4号位；（原理：主板的走线布局类型决定了2号位和4号位的内存性能最好）&lt;/p>
+&lt;p>向下按开内存条插槽两侧的卡扣；注意内存条的防呆缺口（\即内存条插槽中的凸起条，对应内存条金手指处的凹槽）位置，将两头对准插槽，缓慢而稳地将内存条插到槽底，必要时可以左右摇晃以确保能顺利塞入。听到“咔”的一声，两侧卡扣均自动扣上即表明安装完成。&lt;/p>
+&lt;h3 id="安装散热器">安装散热器&lt;/h3>
+&lt;p>散热器的安装位置在CPU模块的正上方。&lt;/p>
+&lt;p>将散热器扣具安装在主板反面，在主板正面用螺丝固定；注意LGA1700接口和LGA1200接口的安装区别。&lt;/p>
+&lt;p>取出附带的硅脂（也可以自己购买更适合的），轻轻在CPU模块上面点涂5个点或者画X形。&lt;/p>
+&lt;p>（以塔式散热器为例）撕开散热器底部的胶贴，解开风扇的卡扣，暂时解开风扇放置在一边。将散热器底部对准CPU位置上的散热器扣具，缓慢平放，使CPU上的硅脂被均匀摊开压平；扣上、拧上散热器的卡扣和螺丝，使散热器固定（\务必注意：拧螺丝时若出现拧完一侧另一侧无法拧下时，将已拧下的螺丝复原，然后交叉对拧两侧的螺丝，每次只拧入一小段；最后将风扇安装回原位，扣上风扇卡扣。&lt;/p>
+&lt;h3 id="安装m2固态硬盘">安装M.2固态硬盘&lt;/h3>
+&lt;p>若接口处配置有硬盘导热板：用螺丝刀旋开M.2接口上面的导热板的螺丝，将导热板取下放在一边。&lt;/p>
+&lt;p>观察该接口的长度以及螺口的位置：主板针对不同规格长度的固态硬盘设置了多个螺口，根据自己的固态硬盘长度选择螺柱安装位置。选好位置后，将机箱配套的螺柱旋进主板上的螺口。&lt;/p>
+&lt;p>（关于固态硬盘规格：2280指卡式固态硬盘的PCB板的尺寸，表示该固态硬盘宽22mm，长80mm；常见的尺寸还有2260，2242，2230等）&lt;/p>
+&lt;p>观察固态硬盘的金手指缺口位置，确认位置与M.2接口一致之后，从斜上方约30度将硬盘插入接口，金手指全部插入时即为插到底。此时硬盘为倾斜状态，用手轻轻将固态硬盘压至水平，使硬盘尾部的半圆形凹槽恰好对准螺柱螺口；再将螺丝旋进螺口，完成对固态硬盘的固定。最后，若配置有导热板，将导热板压在固态硬盘上，再旋入螺丝固定。&lt;/p>
+&lt;h3 id="ex安装机械硬盘与sata硬盘">(EX)安装机械硬盘与SATA硬盘&lt;/h3>
+&lt;p>安装机械硬盘时，需拉出机箱内的机械硬盘槽，打开固定卡扣，将机械硬盘平放安插进硬盘槽内，再锁好卡扣。对于执行SATA协议接口的机械硬盘，我们需要准备一条SATA数据线，将一端连接在主板上，另一端连接至机械硬盘。然后，我们需要找到电源线中的硬盘电源线，将电源线插入机械硬盘中，最后将安装好的机械硬盘推回硬盘槽内。若机械硬盘作为系统盘，需要将该硬盘安装至0号硬盘槽。&lt;/p>
+&lt;p>安装SATA固态硬盘时，我们需要找到机箱的SATA固态硬盘固定位，用螺丝固定SATA硬盘。接下来线材连接的步骤与机械硬盘相同，此处不再赘述。&lt;/p>
+&lt;h3 id="固定主板">固定主板&lt;/h3>
+&lt;p>将机箱平放在地面上，打开侧面板。观察机箱的主板螺丝螺口位置，将主板小心地平放入机箱，螺口一一对应，主板左上方的接口板正好对齐机箱背面。使用螺丝固定好主板即可。&lt;/p>
+&lt;blockquote>
+&lt;p>常见的主板一般至少需要5颗螺丝固定：左上角、内存条插槽上侧、接口平板下侧、主板供电接口下侧、PCIEx16插槽上侧；可以先在机箱安装更多的螺柱螺丝进一步固定&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="安装独立显卡">安装独立显卡&lt;/h3>
+&lt;p>将机箱背面的显卡挡板和扩展槽挡板拆下。（拆卸数量根据显卡的接口平板宽度决定，一般拆卸1~2块即可）&lt;/p>
+&lt;p>根据显卡的PCI-Express规格，打开主板上对应长度的PCI-Express插槽卡扣（常见配置有PCIEx16、PCIEx4）；将显卡金手指对准插槽，注意金手指的防呆缺口方向；垂直向下将显卡插入插槽，插到底之后将卡扣合上。（现在许多主板会自动合上卡扣。插到底后听到“咔”的一声，卡扣自动扣上即可）&lt;/p>
+&lt;p>此时显卡的接口板应与机箱背面对齐。将机箱背部的显卡挡板装回，重新用螺丝锁紧以固定显卡。若显卡较大较重，可以再另外安装显卡支架进一步固定。&lt;/p>
+&lt;h3 id="插线">插线&lt;/h3>
+&lt;p>连接供电线是装机的重要步骤。各种器件都需要供电，故需要连接的供电线有很多。接线的安装顺序一般为:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">主板供电 --&amp;gt; CPU供电 --&amp;gt; CPU散热器供电 --&amp;gt; USB接线 --&amp;gt; 机箱跳线 --&amp;gt; 显卡供电
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>连接机箱跳线这一步中，务必将各跳线接口明确并准确接入对应接口中&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="机箱跳线">机箱跳线&lt;/h4>
+&lt;p>F_AUDIO、F_USB2.0、F_USB3.0、FAN、CPU_FAN、POWER_SW、RESET_SW、HDD_LED、POWER_LED+、POWER_LED-&lt;/p>
+&lt;h4 id="接线简要解释">接线简要解释&lt;/h4>
+&lt;p>F_AUDIO：音频线&lt;/p>
+&lt;p>F_USB：USB接口线&lt;/p>
+&lt;p>POWER_SW、RESET_SW、HDD_LED、POWER_LED：启动、重启、硬盘指示灯、启动指示灯&lt;/p>
+&lt;p>FAN：若机箱配置有机箱风扇，则风扇供电接在该接口处。&lt;/p>
+&lt;p>CPU_FAN：CPU散热器风扇供电，常见为4针脚，位于主板平面上方。&lt;/p>
+&lt;p>CPU供电：常见为6+8pin，位于主板左上角。&lt;/p>
+&lt;p>主板供电：常见为24pin，位于主板右侧。&lt;/p>
+&lt;p>显卡辅助供电：目前常见的显卡都需要另接辅助供电，根据型号有不同的供电方案，常见有8pin、6+8pin、8+8pin等。&lt;/p>
+&lt;h3 id="理线检查开机">理线、检查、开机&lt;/h3>
+&lt;p>理线也是装机的一项重要步骤，整洁的电线整理既可以令机箱内部拥有喜人的观感（尤其是各种酷炫的机箱），更重要的是腾出机箱空间利于散热，也利于设备的检修和管理。&lt;/p>
+&lt;h4 id="理线技巧">理线技巧&lt;/h4>
+&lt;p>多使用理线带；将处在相近位置的连接线放在同一个口；将没有用到的连接线捆好放在主板后侧的机箱空间中。&lt;/p>
+&lt;h4 id="开机检查步骤">开机检查步骤&lt;/h4>
+&lt;p>确认所有的电脑设备都已经正确地安装完成；&lt;/p>
+&lt;p>确认所有的供电线、机箱跳线都已经在正确的位置上插好，理线整洁；&lt;/p>
+&lt;p>将显示器连接线插在独立显卡的接口上；&lt;/p>
+&lt;p>连接键盘和鼠标；&lt;/p>
+&lt;p>将机箱电源线接好，打开机箱电源开关；&lt;/p>
+&lt;p>按下机箱正面的启动开关，开机。&lt;/p>
+&lt;h4 id="排障操作">排障操作&lt;/h4>
+&lt;p>只保留足够系统开机自检的基本设备，CPU（包括风扇）、内存、主板是最基本的构成。&lt;/p>
+&lt;p>Intel平台可以只保留以上基本设备，AMD平台由于往往没有安装核心显卡，需要保留独立显卡。&lt;/p>
+&lt;p>电脑故障排障顺序：&lt;/p>
+&lt;p>CPU&amp;ndash;&amp;gt;内存&amp;ndash;&amp;gt;PCI-Express设备&amp;ndash;&amp;gt;输入输出设备&amp;ndash;&amp;gt;其他设备&lt;/p>
+&lt;p>&lt;strong>无法启动的原因以及解决方法简要列举&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>表现（无报警声）&lt;/th>
+&lt;th>故障来源&lt;/th>
+&lt;th>解决方法建议&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>电源输出电压不足&lt;/td>
+&lt;td>电源&lt;/td>
+&lt;td>检查供电情况，必要时更换功率更高的电源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主板供电模块问题，常见表现为风扇转一下就停&lt;/td>
+&lt;td>主板&lt;/td>
+&lt;td>联系售后人员咨询；更换主板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>处理器和内存频率设置问题，常见表现为风扇转一下就停&lt;/td>
+&lt;td>CPU、内存&lt;/td>
+&lt;td>常见是由于超频导致，将频率进行修正即可（如重置CMOS）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>风扇时转时停&lt;/td>
+&lt;td>电源、内存&lt;/td>
+&lt;td>关机断电，拔掉电源线，重新安装内存条，长按开机键保持十几秒，再重新接电开机&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>处理器故障，表现为其他设备均正常运转但无法开机&lt;/td>
+&lt;td>CPU、CPU散热器风扇&lt;/td>
+&lt;td>检查散热器风扇供电是否接线正确；检查CPU安装情况；必要时更换CPU、散热器风扇&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主机已启动，但显示器屏幕电源灯闪烁，无信号输入&lt;/td>
+&lt;td>显卡、内存&lt;/td>
+&lt;td>关机断电，擦拭显卡、内存条的金手指，清理上面的灰尘，重新安装显卡、内存条&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>表现（有报警声）&lt;/th>
+&lt;th>故障来源&lt;/th>
+&lt;th>解决方法建议&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;td>内存&lt;/td>
+&lt;td>关机断电，拔出内存，擦拭金手指；重新安装内存条；必要时更换内存条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;td>具体情况具体分析&lt;/td>
+&lt;td>上网查阅对应主板的报警提示指南，对症下药进行处理&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>故障自检灯亮&lt;/td>
+&lt;td>具体情况具体分析&lt;/td>
+&lt;td>上网查阅对应主板的报警提示指南，对症下药进行处理&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>其他&lt;/td>
+&lt;td>具体情况具体分析&lt;/td>
+&lt;td>使用Debug卡排障&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="注意事项">注意事项&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>在机箱内安装主板时必定是不通电的，所以为了防止静电击穿主板上的电容，在安装主板以及在主板上安装内存条、显卡等设备时，应该事先释放静电，以及最好全程佩戴静电手环。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>若散热器较大，应该先安装内存条和固态硬盘，以免散热器安装后挡住内存条和固态硬盘的插槽导致无法进行后续安装。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在将主板放置进机箱，用螺丝固定主板时，主板左上角的螺丝往往由于空间狭小而难以就位，在安装时较困难。&lt;/p>
+&lt;p>解决方案1：使用长杆螺丝刀。&lt;/p>
+&lt;p>解决方案2（不太建议）：可以考虑先固定主板再安装散热器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>主板上的针脚脆弱易损坏，在插入排线时要小心，一时插不进不要使用蛮力。HDD-LED、POWER-SW、RESET-SW等跳线，针脚小、细且排布密集，HDD-LED跳线还有正负极之分，进行连接时应小心注意辨别。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>部分6pin、8pin及以上的供电接口有可拆分设计，在插线时注意根据实际情况进行合并和对齐。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>祝各位有愉快的装机体验！&lt;/strong>&lt;/p></description></item><item><title>计维计划通——拆机图文教程</title><link>https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/</link><pubDate>Tue, 25 Oct 2022 20:39:01 +0800</pubDate><guid>https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/</guid><description>&lt;h1 id="椰香后援会">椰香后援会&lt;/h1>
+&lt;h5 id="应援计划通">——应援计划通&lt;/h5>
+&lt;h2 id="一硬件维修相关需拆机">一、硬件维修相关（需拆机）&lt;/h2>
+&lt;h3 id="零开始任务之前">（零）开始任务之前&lt;/h3>
+&lt;p>要谨记，在开始任何修机任务之前，都必须确保机主已报修并签署协议。&lt;/p>
+&lt;p>要注意，签署协议还要提醒机主抄写方框上的那一句话。&lt;/p>
+&lt;h3 id="一拆机步骤">（一）拆机步骤&lt;/h3>
+&lt;h4 id="1获取计算机中加密卷信息">1.获取计算机中加密卷信息&lt;/h4>
+&lt;h4 id="1winr唤出运行命令框">（1）“win+r”唤出运行命令框&lt;/h4>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/001.png"
+width="399"
+height="230"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/001_hu89aff1718c12f2c2a155a81fc4538d87_10411_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/001_hu89aff1718c12f2c2a155a81fc4538d87_10411_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="001"
+class="gallery-image"
+data-flex-grow="173"
+data-flex-basis="416px"
+>&lt;/p>
+&lt;h4 id="2输入manage-bde--status查询被bitlocker加密的卷">（2）输入“manage-bde -status”查询被bitlocker加密的卷&lt;/h4>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/002.png"
+width="554"
+height="290"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/002_hu62ff84df95702d5bd29a7b9885079c15_14595_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/002_hu62ff84df95702d5bd29a7b9885079c15_14595_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="002"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="458px"
+>&lt;/p>
+&lt;p>若无Bitlocker信息（和图中一样），则跳转至步骤2：查询该型号笔记本的硬件信息&lt;/p>
+&lt;h4 id="3获取密钥防止数据被锁">（3）获取密钥，防止数据被锁&lt;/h4>
+&lt;p>以管理员权限运行“获取恢复密钥.bat”，等待脚本运行完毕
+&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/003.png"
+width="1005"
+height="664"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/003_huf3ec040e71349def15b6a24c0083ffa4_75729_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/003_huf3ec040e71349def15b6a24c0083ffa4_75729_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="003"
+class="gallery-image"
+data-flex-grow="151"
+data-flex-basis="363px"
+>&lt;/p>
+&lt;p>程序会在C盘生成一个叫做OutPutKey的文件夹&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/004.png"
+width="1005"
+height="664"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/004_hu1bd640477b37d05c670a788c5aa478c1_76644_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/004_hu1bd640477b37d05c670a788c5aa478c1_76644_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="004"
+class="gallery-image"
+data-flex-grow="151"
+data-flex-basis="363px"
+>&lt;/p>
+&lt;p>将此文件夹复制到一个U盘之后就可以放心地开始做任务了。&lt;/p>
+&lt;h4 id="2查询该型号笔记本的硬件信息">2.查询该型号笔记本的硬件信息&lt;/h4>
+&lt;p>通过网络搜索，查询该机型的相关硬件信息，如：&lt;strong>螺丝位置、螺丝数量、螺丝长度、是否具有防滑螺丝、后盖拆卸与装配的要点、主板上各零部件位置&lt;/strong>等&lt;/p>
+&lt;h4 id="3拆除d面背板">3.拆除D面背板&lt;/h4>
+&lt;blockquote>
+&lt;p>&lt;strong>在关机情况下进行，正式拆机前应洗手（除静电）&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="1移除供电线网线外设防尘塞同理">（1）移除供电线、网线、外设，防尘塞同理&lt;/h4>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/005.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/005_hucba6ca1019d15cdcca1252974d7b87ee_214489_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/005_hucba6ca1019d15cdcca1252974d7b87ee_214489_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="005"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h4 id="2卸下螺丝">（2）卸下螺丝&lt;/h4>
+&lt;p>将笔记本翻至D面（后盖）&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/006.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/006_huab5a0d06bffa104046c7ddfeecdad254_296294_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/006_huab5a0d06bffa104046c7ddfeecdad254_296294_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="006"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>使用对应的螺丝批（十字/一字/梅花）拧出螺丝，将螺丝按照在后盖上的位置进行摆放&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/007.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/007_hu4ed20f13b285a3ecd678171961ae71d1_206833_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/007_hu4ed20f13b285a3ecd678171961ae71d1_206833_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="007"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h4 id="3撬开后盖">（3）撬开后盖&lt;/h4>
+&lt;p>使用撬棒、翘片等工具，抵住后盖与机体的缝，将后盖从边角撬开&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/008.jpg"
+width="3000"
+height="4000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/008_hu61b8aff330ef21e7d2ce8a153b157c04_2742635_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/008_hu61b8aff330ef21e7d2ce8a153b157c04_2742635_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="008"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/009.jpg"
+width="3000"
+height="4000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/009_hu6ab8fc82c135070e5bf34284756ea901_1996539_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/009_hu6ab8fc82c135070e5bf34284756ea901_1996539_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="009"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/010.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/010_hu151b201fb650bfa1c2d78adcf6abf33f_215415_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/010_hu151b201fb650bfa1c2d78adcf6abf33f_215415_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="010"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>翘片卡进去后，可以听到后盖卡扣脱离机体的声音&lt;/p>
+&lt;/blockquote>
+&lt;p>将翘片沿边缘缓慢划过，使用巧劲，确保所有的卡扣脱离&lt;/p>
+&lt;p>有的机型后盖比较复杂，这就需要预先灵活使用网络搜索&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/011.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/011_hu361649d8e8683819450539494d6170c2_296130_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/011_hu361649d8e8683819450539494d6170c2_296130_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="011"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h3 id="二认识笔记本主板上的元件">（二）认识笔记本主板上的元件&lt;/h3>
+&lt;h4 id="1俯视图">1.俯视图&lt;/h4>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/012.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/012_hu455e9e376a93281ff3cab09f56bce4dd_347833_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/012_hu455e9e376a93281ff3cab09f56bce4dd_347833_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="012"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h4 id="2解析图">2.解析图&lt;/h4>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/013.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/013_hu9e008ad369828abc2acc3ea743ab9217_222746_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/013_hu9e008ad369828abc2acc3ea743ab9217_222746_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="013"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>1.散热模块&lt;br>
+2.CPU、GPU核心&lt;br>
+3.M.2固态硬盘位（2）&lt;br>
+4.内存条（2）&lt;br>
+5.网卡&lt;br>
+6.电池&lt;/p>
+&lt;/blockquote>
+&lt;p>不同的笔记本，主板构造大同小异&lt;/p>
+&lt;h3 id="以下进行具体案例示范所有操作均在电源排线移除的情况下完成">&lt;strong>以下进行具体案例示范，所有操作均在电源排线移除的情况下完成&lt;/strong>&lt;/h3>
+&lt;p>电源排线位置&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/014.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/014_hu40291c07c89d9f787dd2f76609122090_256615_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/014_hu40291c07c89d9f787dd2f76609122090_256615_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="014"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>拆除电源排线&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/015.jpg"
+width="3000"
+height="4000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/015_hu424a0862c96b6e97c51c091f420b1fdb_3029228_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/015_hu424a0862c96b6e97c51c091f420b1fdb_3029228_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="015"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>释放静电:长按电源键30秒、洗手&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="三加装更换m2固态硬盘">（三）加装（更换）M.2固态硬盘&lt;/h3>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/016.jpg"
+width="1080"
+height="1440"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/016_hueb0bec22f894d8df981cf007958745da_350404_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/016_hueb0bec22f894d8df981cf007958745da_350404_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="016"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;h4 id="1取下原有的固定螺丝">1.取下原有的固定螺丝&lt;/h4>
+&lt;blockquote>
+&lt;p>有散热马甲的应先取下&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/017.jpg"
+width="3000"
+height="4000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/017_huc1d567798d72ff47d67b84b39f703350_3567746_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/017_huc1d567798d72ff47d67b84b39f703350_3567746_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="017"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;h4 id="2拿m2固态硬盘虚触接口">2.拿M.2固态硬盘虚触接口&lt;/h4>
+&lt;p>观察防呆设计&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/018.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/018_hu00c9deb313e92cba8610b5e2c9cb7f85_255767_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/018_hu00c9deb313e92cba8610b5e2c9cb7f85_255767_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="018"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>不要大力出奇迹！！！&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="3放入固态硬盘">3.放入固态硬盘&lt;/h4>
+&lt;p>先斜着放入，再用磁吸批头吸着螺丝将其压下，并固定&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/019.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/019_huc21159ea93f249908cbcb66b9e03fdad_366284_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/019_huc21159ea93f249908cbcb66b9e03fdad_366284_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="019"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h3 id="四清灰">（四）清灰&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;strong>记得戴口罩&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="1扫去表面灰尘">1.扫去表面灰尘&lt;/h4>
+&lt;p>用软毛刷刷去风扇附近的灰尘&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/020.jpg"
+width="768"
+height="1024"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/020_hud229ddc7cd8eec9f5f458da0707af5b7_249926_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/020_hud229ddc7cd8eec9f5f458da0707af5b7_249926_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="020"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>后盖上可能也会有附着的灰尘，记得清理&lt;/p>
+&lt;h4 id="2深入清理风扇中的灰尘">2.深入清理风扇中的灰尘&lt;/h4>
+&lt;p>将毛刷插入风扇，使刷子与扇叶充分接触，再用刷子将灰尘挑出&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/021.jpg"
+width="4000"
+height="3000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/021_hu889e5fa5c42934a71c163c9eefdb8aa2_2249988_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/021_hu889e5fa5c42934a71c163c9eefdb8aa2_2249988_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="021"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>这一步清理出来的灰尘较多，注意收集措施&lt;/p>
+&lt;/blockquote>
+&lt;p>用毛刷清理完之后，再用气吹吹出灰尘&lt;/p>
+&lt;p>使用气吹时，动作要迅速，利用产生的气流将扇叶、散热鳍片上残留的灰尘吹走&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/022.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/022_hu2de11c009c80fc67b63ea6af8adaa5a3_240681_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/022_hu2de11c009c80fc67b63ea6af8adaa5a3_240681_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="022"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>吹至无扬尘出现后，可换至另一边的风扇清理&lt;/p>
+&lt;p>最后，用气吹清理掉落在主板表面的灰尘&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/023.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/023_huf6dbe99c3728aba560078519068de17e_266072_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/023_huf6dbe99c3728aba560078519068de17e_266072_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="023"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>目的：防止灰尘掉落在主板上造成元器件损伤&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="五加装更换内存条">（五）加装（更换）内存条&lt;/h3>
+&lt;p>内存条所在位置如图，一般有黑色绝缘片&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/028.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/028_hu86ae1e6cd0aa7a93d2b55226411859d2_243991_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/028_hu86ae1e6cd0aa7a93d2b55226411859d2_243991_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="028"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h4 id="1拿内存条虚触接口">1.拿内存条虚触接口&lt;/h4>
+&lt;p>观察防呆设计&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/029.jpg"
+width="768"
+height="1024"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/029_hu270f875bddbf4fa76c2ee3b993f6f72d_253860_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/029_hu270f875bddbf4fa76c2ee3b993f6f72d_253860_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="029"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;h4 id="2放入内存条">2.放入内存条&lt;/h4>
+&lt;p>斜放内存条&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/030.jpg"
+width="4000"
+height="3000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/030_hu051c6db873dd21af7960f257f460eba0_3319365_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/030_hu051c6db873dd21af7960f257f460eba0_3319365_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="030"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>固定内存条的是两根弹性金属条，配有卡扣&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/031.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/031_hu86ae1e6cd0aa7a93d2b55226411859d2_187640_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/031_hu86ae1e6cd0aa7a93d2b55226411859d2_187640_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="031"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>在放入内存条时，可稍微用力压下，直至金属条卡扣扣上&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/032.jpg"
+width="1024"
+height="768"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/032_hu44a357c137a18b24452e571b93e9d18b_251670_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/032_hu44a357c137a18b24452e571b93e9d18b_251670_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="032"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h3 id="在进行完上述操作后将电源排线插回">&lt;strong>在进行完上述操作后，将电源排线插回&lt;/strong>&lt;/h3>
+&lt;h4 id="1试装">1.试装&lt;/h4>
+&lt;p>因为有的机型需要后盖才能正常开机，所以检测应当在装上后盖的情况下进行&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/024.jpg"
+width="3000"
+height="4000"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/024_hu35788334aaaa8536e7255f957611e551_1984394_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/024_hu35788334aaaa8536e7255f957611e551_1984394_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="024"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>听到卡扣合上的声音才算装好&lt;/p>
+&lt;h4 id="2检测">2.检测&lt;/h4>
+&lt;p>试装后盖后，开机，进入设备管理器（右键此电脑\显示更多选项\管理\单击设备管理器）&lt;/p>
+&lt;p>再进入任务管理器（ctrl+shift+esc\性能），观察各项指标有无变动&lt;/p>
+&lt;blockquote>
+&lt;p>CPU频率、显存大小、硬盘个数、磁盘大小、网络适配器、内存大小，以及是否能识别外设&lt;/p>
+&lt;/blockquote>
+&lt;p>CPU、GPU指标如图&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/025.png"
+width="1920"
+height="1080"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/025_hu8a5462ecaad337ba2200d701555eb0fe_185526_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/025_hu8a5462ecaad337ba2200d701555eb0fe_185526_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="025"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>硬盘指标如图&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/026.png"
+width="781"
+height="572"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/026_hu0f236ec2f1b110f531994f8c4410ee2e_48978_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/026_hu0f236ec2f1b110f531994f8c4410ee2e_48978_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="026"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="327px"
+>&lt;/p>
+&lt;p>网络适配器指标如图&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/027.png"
+width="781"
+height="572"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/027_hu784b124a106797784ad47f0984f8aa92_57079_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%A1%E7%BB%B4%E8%AE%A1%E5%88%92%E9%80%9A%E6%8B%86%E6%9C%BA%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B/027_hu784b124a106797784ad47f0984f8aa92_57079_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="027"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="327px"
+>&lt;/p>
+&lt;p>若无异常，则关机并装上后盖螺丝&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>自此，装机完成&lt;/strong>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

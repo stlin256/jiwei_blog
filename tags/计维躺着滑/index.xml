@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计维躺着滑 on 计算机维护队内部技术博客</title><link>https://scau-jiwei.gitee.io/tags/%E8%AE%A1%E7%BB%B4%E8%BA%BA%E7%9D%80%E6%BB%91/</link><description>Recent content in 计维躺着滑 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 01 Nov 2023 12:20:18 +0800</lastBuildDate><atom:link href="https://scau-jiwei.gitee.io/tags/%E8%AE%A1%E7%BB%B4%E8%BA%BA%E7%9D%80%E6%BB%91/index.xml" rel="self" type="application/rss+xml"/><item><title>华农校园网逃离指北</title><link>https://scau-jiwei.gitee.io/p/%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E9%80%83%E7%A6%BB%E6%8C%87%E5%8C%97/</link><pubDate>Wed, 01 Nov 2023 12:20:18 +0800</pubDate><guid>https://scau-jiwei.gitee.io/p/%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E9%80%83%E7%A6%BB%E6%8C%87%E5%8C%97/</guid><description>&lt;h1 id="逃离华农校园网指北">逃离华农校园网指北&lt;/h1>
+&lt;h2 id="要干什么">要干什么？&lt;/h2>
+&lt;p>这篇文章主要是介绍如何通过二手路由器和二手5G手机制作丐版5G CPE并配合物联卡实现宿舍多人低价上网。&lt;/p>
+&lt;h2 id="准备材料">准备材料&lt;/h2>
+&lt;p>小米路由器3G，中兴远航10，网线，fat32文件系统的U盘&lt;/p>
+&lt;h2 id="文件下载">文件下载&lt;/h2>
+&lt;p>&lt;strong>建议科学上网并配合IDM下载器&lt;/strong>
+&lt;a class="link" href="https://pan.200502.xyz/d/%E6%9C%AC%E5%9C%B0/%E9%80%83%E7%A6%BB%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E6%8C%87%E5%8C%97/WinSCP-6.1.2-Setup.exe?sign=wWn80X5VUygl4k75GEO0W54mm3aSnVVmdjHxHEQJV8M=:0" target="_blank" rel="noopener"
+>WinSCP&lt;/a>
+&lt;a class="link" href="https://pan.200502.xyz/d/%E6%9C%AC%E5%9C%B0/%E9%80%83%E7%A6%BB%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E6%8C%87%E5%8C%97/breed-mt7621-xiaomi-r3g.bin?sign=z27oHJN4_SggRxtBo211MQ6FgCR2d_P9BdS9cBv8Otk=:0" target="_blank" rel="noopener"
+>breed-mt7621-xiaomi-r3g.bin&lt;/a>
+&lt;a class="link" href="https://pan.200502.xyz/d/%E6%9C%AC%E5%9C%B0/%E9%80%83%E7%A6%BB%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E6%8C%87%E5%8C%97/x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-breed-factory.bin?sign=X6pdTqMRT3KVOki8iwfKuILXIpwaRua-w6fgshCic_A=:0" target="_blank" rel="noopener"
+>x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-breed-factory.bin&lt;/a>
+&lt;a class="link" href="https://pan.200502.xyz/d/%E6%9C%AC%E5%9C%B0/%E9%80%83%E7%A6%BB%E5%8D%8E%E5%86%9C%E6%A0%A1%E5%9B%AD%E7%BD%91%E6%8C%87%E5%8C%97/x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin?sign=ta-EObOOyy0P4N8Hobaz9LtToiBMMDjOwE_zyQV28s8=:0" target="_blank" rel="noopener"
+>x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin&lt;/a>&lt;/p>
+&lt;h2 id="成本计算">成本计算&lt;/h2>
+&lt;p>小米路由器3G拼多多购买二手55元，中兴远航10于拍机堂软件购买，屏幕有压伤，价格169元。
+物联网卡每个月套餐40元1200G流量，宿舍6人平摊每人每月6.7元。&lt;/p>
+&lt;h2 id="网络测速">网络测速&lt;/h2>
+&lt;p>测速时间：10月29日周日13：28
+&lt;img src="https://200502.xyz/usr/uploads/2023/10/1994915458.png"
+loading="lazy"
+alt="网速测试1.png"
+>
+测速时间：10月26日周四00：08
+&lt;img src="https://200502.xyz/usr/uploads/2023/10/1986880329.jpg"
+loading="lazy"
+alt="网速测速2.jpg"
+>&lt;/p>
+&lt;h2 id="中兴领航10开启usb网络共享">中兴领航10开启usb网络共享&lt;/h2>
+&lt;p>在&lt;strong>设置&amp;gt;关于手机&lt;/strong>中连续点击5次&lt;strong>版本号&lt;/strong>开启开发者模式，在&lt;strong>系统与更新&amp;gt;开发者模式&lt;/strong>中使&lt;strong>默认usb配置&lt;/strong>改为&lt;strong>usb网络共享&lt;/strong>。&lt;/p>
+&lt;h2 id="路由器刷入x-wrt">路由器刷入x-wrt&lt;/h2>
+&lt;h3 id="刷入开发版固件">刷入开发版固件&lt;/h3>
+&lt;p>从&lt;strong>miwifi.com&lt;/strong>官网下载R3G路由器的开发版固件，进入浏览器输入&lt;strong>192.168.31.1&lt;/strong>进入小米路由器后台，在&lt;strong>常用设置&amp;gt;系统状态&lt;/strong>中选择&lt;strong>手动升级&lt;/strong>，选择你刚下载的固件。&lt;img src="https://200502.xyz/usr/uploads/2023/10/2365582423.png"
+loading="lazy"
+alt="1.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/4055184457.png"
+loading="lazy"
+alt="2.png"
+>&lt;/p>
+&lt;h3 id="开启ssh">开启ssh&lt;/h3>
+&lt;h4 id="手机绑定路由器">手机绑定路由器&lt;/h4>
+&lt;p>为了绑定路由器，必须先给路由器连上网，我们先拿网线将电脑的网口连接上路由器的wan口，电脑连上手机开的热点，在&lt;strong>控制面版&amp;gt;网络和Internet&amp;gt;网络连接&lt;/strong>中，调整&lt;strong>WLAN属性&lt;/strong>，在&lt;strong>共享&lt;/strong>中选择&lt;strong>允许其他网络用户通过此计算机的Internet连接来连接&lt;/strong>，并选择&lt;strong>以太网&lt;/strong>。
+再拿另一台手机（不要拿开热点的手机）下载&lt;strong>小米wifi&lt;/strong>，连接路由器的wifi并且在软件中绑定路由器。&lt;img src="https://200502.xyz/usr/uploads/2023/10/3451820574.png"
+loading="lazy"
+alt="3.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/3888824326.png"
+loading="lazy"
+alt="4.png"
+>&lt;/p>
+&lt;h4 id="开启ssh-1">开启ssh&lt;/h4>
+&lt;p>进入miwifi官网，在开放页面中找到开启ssh工具，找到绑定的路由器并下载miwifi_ssh.bin文件，记住root密码。根据官网步骤开启ssh。&lt;img src="https://200502.xyz/usr/uploads/2023/10/196583575.png"
+loading="lazy"
+alt="5.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/1086359669.png"
+loading="lazy"
+alt="6.png"
+>&lt;/p>
+&lt;h3 id="刷入breed">刷入breed&lt;/h3>
+&lt;p>将网线从路由器wan口接到lan口，电脑关闭上一步配置的网络共享，安装WinSCP，新建站点，选择文件协议为SCP，填写主机名为192.168.31.1，用户名为root，密码为上一步得到的root密码
+在路由器的/tmp目录下将&lt;strong>breed-mt7621-xiaomi-r3g.bin&lt;/strong>文件上传
+在终端“输入命令”处输入&lt;code>mtd -r write /tmp/breed-mt7621-xiaomi-r3g.bin Bootloader&lt;/code>&lt;img src="https://200502.xyz/usr/uploads/2023/10/441784800.png"
+loading="lazy"
+alt="7.png"
+>&lt;/p>
+&lt;h3 id="刷入x-wrt-kernel底包">刷入x-wrt kernel底包&lt;/h3>
+&lt;h4 id="进入breed">进入breed&lt;/h4>
+&lt;p>路由器断电，按住路由器的复位键再通电，直到路由器状态灯变为蓝色闪烁即可松开，在浏览器输入192.168.1.1即可进入breed控制台。&lt;/p>
+&lt;h4 id="调整breed设置">调整breed设置&lt;/h4>
+&lt;p>在&lt;strong>小米R3G设置&lt;/strong>中删除&lt;strong>normal_firmware_md5&lt;/strong>这一项，在&lt;strong>环境变量编辑&lt;/strong>中添加一个环境变量，名为&lt;strong>xiaomi.r3g.bootfw&lt;/strong>，值为2。&lt;img src="https://200502.xyz/usr/uploads/2023/10/1618741694.png"
+loading="lazy"
+alt="8.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/1955564416.png"
+loading="lazy"
+alt="9.png"
+>&lt;/p>
+&lt;h4 id="刷入">刷入&lt;/h4>
+&lt;p>在固件更新中，固件选择&lt;strong>x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-breed-factory&lt;/strong>，&lt;strong>闪存布局&lt;/strong>选择&lt;strong>小米路由器固件2&lt;/strong>，点击上传即可。&lt;img src="https://200502.xyz/usr/uploads/2023/10/2700655735.png"
+loading="lazy"
+alt="10.png"
+>&lt;/p>
+&lt;h3 id="刷入x-wrt固件">刷入x-wrt固件&lt;/h3>
+&lt;p>等待路由器亮蓝灯后，进入192.168.15.1,在&lt;strong>系统&amp;gt;备份/升级&lt;/strong>中，刷写新的固件，选择固件&lt;strong>x-wrt-23.10-b202310211921-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin&lt;/strong>，并且&lt;strong>去掉勾选&lt;/strong>保持设置并保留当前配置。&lt;img src="https://200502.xyz/usr/uploads/2023/10/4139157707.png"
+loading="lazy"
+alt="11.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/331530815.png"
+loading="lazy"
+alt="12.png"
+>&lt;/p>
+&lt;h2 id="路由器联网">路由器联网&lt;/h2>
+&lt;p>将手机插入路由器，再解锁手机即可实现路由器联网。&lt;/p>
+&lt;h3 id="配置wi-fi">配置Wi-Fi&lt;/h3>
+&lt;p>浏览器进入192.168.15.1，在网络，无线中，选择编辑，在常规设置中，ESSID就是wifi名字。无线安全中的密钥就是wifi密码。&lt;img src="https://200502.xyz/usr/uploads/2023/10/3484232852.png"
+loading="lazy"
+alt="13.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/3604632226.png"
+loading="lazy"
+alt="14.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/1229593936.png"
+loading="lazy"
+alt="15.png"
+>&lt;/p>
+&lt;h3 id="配置ipv6若不需要ipv6可以不用设置">配置ipv6（若不需要ipv6可以不用设置）&lt;/h3>
+&lt;p>进入路由器后台，在网络，接口中，分别配置usblan6，usbwan和lan。&lt;img src="https://200502.xyz/usr/uploads/2023/10/1793225585.png"
+loading="lazy"
+alt="16.png"
+>&lt;/p>
+&lt;h4 id="配置usbwan6">配置usbwan6&lt;/h4>
+&lt;p>点击usbwan6的编辑选项，在&lt;em>DHCP服务器&amp;gt;常规设置&lt;/em>中，勾选忽略此接口。在IPV6设置中，勾选指定的主接口，RA服务，DHCPv6服务，NDP代理均选择中继模式，其他默认。&lt;img src="https://200502.xyz/usr/uploads/2023/10/207740750.png"
+loading="lazy"
+alt="17.png"
+>&lt;img src="https://200502.xyz/usr/uploads/2023/10/894154629.png"
+loading="lazy"
+alt="18.png"
+>&lt;/p>
+&lt;h4 id="配置usbwan">配置usbwan&lt;/h4>
+&lt;p>点击usbwan的编辑选项，在DHCP服务器&amp;gt;常规设置中，勾选忽略此接口。在IPV6设置中，RA服务，DHCPv6服务，NDP代理均选择中继模式，其他默认。&lt;/p>
+&lt;h4 id="配置lan">配置lan&lt;/h4>
+&lt;p>点击lan的编辑选项，在DHCP服务器&amp;gt;常规设置中，不要勾选忽略此接口。在IPV6设置中，RA服务，DHCPv6服务，NDP代理均选择已禁用，其他默认。&lt;/p>
+&lt;h2 id="手机放置位置">手机放置位置&lt;/h2>
+&lt;p>可以通过手机设置中的灵犀智能助理中的5g智慧通讯中查看当前位置的信号强度，数字越大信号越好（注意，数字为负数），一般放置在窗台信号较好。&lt;/p>
+&lt;h2 id="物联网卡注意事项">物联网卡注意事项&lt;/h2>
+&lt;p>可以在淘宝中搜索纯流量卡，找到有评论存在时间久的商家，价格不要便宜的离谱，一般19.9元150G，40块钱1200G，这种商家跑路概率低，最好不要购买需要预存的卡。注意，不管要不要预存，商家随时可能跑路。（我已经使用了3个月，商家目前还没跑路）
+物联网卡插入手机后，不要更换卡槽，若要更换，请咨询商家。&lt;/p></description></item></channel></rss>

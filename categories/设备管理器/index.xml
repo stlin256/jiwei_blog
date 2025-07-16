@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设备管理器 on 计算机维护队内部技术博客</title><link>https://scau-jiwei.gitee.io/categories/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8/</link><description>Recent content in 设备管理器 on 计算机维护队内部技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://scau-jiwei.gitee.io/categories/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>设备管理器の一些小技巧</title><link>https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</link><pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate><guid>https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid><description>&lt;h1 id="设备管理器の一些小技巧">设备管理器の一些小技巧&lt;/h1>
+&lt;h2 id="目录">目录&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="#%e5%af%bc%e8%a8%80" >导言&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e4%b8%80%e5%a6%82%e4%bd%95%e6%89%93%e5%bc%80%e8%ae%be%e5%a4%87%e7%ae%a1%e7%90%86%e5%99%a8" >打开设备管理器&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e4%ba%8c%e4%b8%bb%e8%a6%81%e4%bd%9c%e7%94%a8" >主要作用&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e4%b8%89%e7%95%8c%e9%9d%a2%e4%bb%8b%e7%bb%8d" >界面介绍&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%9b%9b%e9%a9%b1%e5%8a%a8%e4%bb%8b%e7%bb%8d" >驱动介绍&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e4%ba%94%e8%ae%be%e5%a4%87%e5%87%ba%e7%8e%b0%e4%ba%86%e9%94%99%e8%af%af" >当设备出现问题&amp;hellip;&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="导言">导言&lt;/h3>
+&lt;p>设备管理器（Device Manager）是Windows操作系统中的一个内置工具，它提供了一个允许用户查看和控制已安装在计算机上硬件设备的界面。我们可以使用设备管理器来安装、更新、禁用、启用或卸载驱动程序，以及解决设备冲突和其他硬件相关问题&lt;/p>
+&lt;h2 id="一如何打开设备管理器">一、如何打开设备管理器&lt;/h2>
+&lt;ol>
+&lt;li>&lt;!-- raw HTML omitted -->Win&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->X&lt;!-- raw HTML omitted --> , 然后点选设备管理器&lt;/li>
+&lt;li>或者右键任务栏左侧Win图标，然后点选设备管理器&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1.jpg"
+width="361"
+height="1051"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1_hu82f85a382266e97193962b5427c9a1d7_91025_480x0_resize_q75_box.jpg 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/1_hu82f85a382266e97193962b5427c9a1d7_91025_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Open it"
+class="gallery-image"
+data-flex-grow="34"
+data-flex-basis="82px"
+>&lt;/p>
+&lt;ol start="3">
+&lt;li>又或者&lt;!-- raw HTML omitted -->Win&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->R&lt;!-- raw HTML omitted --> , 然后输入&lt;code>devmgmt.dsc&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h2 id="二主要作用">二、主要作用&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>查看设备状态&lt;/strong>：设备管理器列出了计算机上所有已识别的硬件设备，包括但不限于声卡、显卡、网络适配器、打印机等。每个设备都有一个状态图标，显示该设备是否正常工作。&lt;/li>
+&lt;li>&lt;strong>驱动程序管理&lt;/strong>：用户可以右击设备来更新其驱动程序、回滚到先前版本的驱动程序或完全卸载驱动程序。&lt;/li>
+&lt;li>&lt;strong>解决硬件冲突&lt;/strong>：如果两个设备冲突或某个设备出现问题，设备管理器会显示一个黄色的警告图标。用户可以进一步查看错误信息，以帮助诊断和解决问题。&lt;/li>
+&lt;li>&lt;strong>禁用和启用设备&lt;/strong>：如果用户不希望某个设备在某段时间内工作，他们可以通过设备管理器来临时禁用它，而不必完全从计算机中移除它。&lt;/li>
+&lt;li>&lt;strong>查看设备属性&lt;/strong>：用户可以查看每个设备的详细属性，如制造商、驱动程序版本、端口设置等。&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>设备管理器是诊断和解决Windows计算机上的硬件问题的重要工具。通过它，用户可以管理他们计算机上的所有设备和相关驱动程序，它相当于电脑设备的全面解剖图。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="三界面介绍">三、界面介绍&lt;/h2>
+&lt;p>设备管理器的界面上罗列着电脑所有常用的设备及其子选项&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui.png"
+width="550"
+height="404"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui_hu9343bdde4b1e3856f5c939474bf4cc27_74785_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/fm_ui_hu9343bdde4b1e3856f5c939474bf4cc27_74785_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="UI"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="326px"
+>&lt;/p>
+&lt;h3 id="常见的选项">常见的选项：&lt;/h3>
+&lt;h3 id="1处理器cpu">1.处理器（CPU）&lt;/h3>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29.png"
+width="500"
+height="515"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29_hud08e194a2d2890fdb5c4c9c169f69f80_184708_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2811%29_hud08e194a2d2890fdb5c4c9c169f69f80_184708_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="CPU"
+class="gallery-image"
+data-flex-grow="97"
+data-flex-basis="233px"
+>&lt;/p>
+&lt;h3 id="2磁盘驱动器">2.磁盘驱动器&lt;/h3>
+&lt;h3 id="3键盘驱动">3.键盘驱动&lt;/h3>
+&lt;h3 id="4鼠标驱动">4.鼠标驱动&lt;/h3>
+&lt;h3 id="5显示适配器">5.显示适配器：&lt;/h3>
+&lt;ul>
+&lt;li>即显卡，用于控制显示器的正常显示。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu.png"
+width="400"
+height="251"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu_hua67cb5a62606dce77c216b64f42fb389_58385_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/gpu_hua67cb5a62606dce77c216b64f42fb389_58385_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="GPU"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="382px"
+>&lt;/p>
+&lt;h3 id="6系统设备">6.系统设备&lt;/h3>
+&lt;p>&lt;strong>即系统识别出来的硬件设备，包括CPU、声卡、显卡、bios等。&lt;/strong>&lt;br>
+&lt;strong>右键&lt;/strong> 某一设备后，可以看见：&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29.png"
+width="500"
+height="313"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29_hubb75365d86da009129f74f3981f2c4e2_123361_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%282%29_hubb75365d86da009129f74f3981f2c4e2_123361_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Options"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+>&lt;/p>
+&lt;ol>
+&lt;li>更新设备驱动&lt;/li>
+&lt;li>卸载设备（驱动）：
+&lt;ul>
+&lt;li>可以将当前设备的驱动卸载掉&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>扫描检测硬件改动&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>&lt;em>如遇上因联想小新显卡虚焊而产生的图形显示问题，可以尝试在此禁用独显的驱动程序&lt;/em>&lt;br>
+&lt;em>如联想拯救者麦克风输入音量小，可以在此更改麦克风的驱动来修复问题&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;ol start="4">
+&lt;li>属性：
+&lt;ul>
+&lt;li>可以查看该设备目前驱动的版本号、驱动更新日期、驱动提供方&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="四驱动介绍">四、驱动介绍&lt;/h2>
+&lt;h3 id="1驱动是什么">1.驱动是什么&lt;/h3>
+&lt;p>驱动，计算机软件术语，是指驱使计算机里硬件动作的软件程序。驱动是添加到操作系统中的特殊程序，其中包含有关硬件设备的信息。此信息能够使计算机与相应的设备进行通信。驱动程序是硬件厂商根据操作系统编写的配置文件，可以说没有驱动程序，计算机中的硬件就无法工作。&lt;/p>
+&lt;p>应用程序开发者不用关心目标用户使用什么硬件，硬件厂家不用关心目标用户用什么应用。而两者只需要关心使用的是什么操作系统，以此为目的为操作系统开发的可执行程序就是驱动。&lt;/p>
+&lt;p>若有更为恰当的比喻，那么驱动是一位翻译官，将系统的想要硬件完成的操作转换成硬件能够理解的信号，使其发挥硬件的功能。&lt;/p>
+&lt;h3 id="2如何安装更新驱动">2.如何安装/更新驱动&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>利用设备管理器：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>自动处理：&lt;br>
+① 打开设备管理器窗口，点开有问题的设备列表。&lt;br>
+② 右键对应设备，选择更新驱动程序。&lt;br>
+③ 选择自动搜索驱动程序。&lt;br>
+④ 之后系统在 &lt;!-- raw HTML omitted -->联网状态&lt;!-- raw HTML omitted --> 下自动更新驱动。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>手动更新：&lt;br>
+① 右键对应设备，选择更新驱动程序。&lt;br>
+② 选择手动查找并安装驱动程序&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29.png"
+width="300"
+height="230"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29_hud4298c9e27bfd3f2668d793e9e58cdcb_16891_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%283%29_hud4298c9e27bfd3f2668d793e9e58cdcb_16891_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Step 2"
+class="gallery-image"
+data-flex-grow="130"
+data-flex-basis="313px"
+>&lt;/p>
+&lt;p>③ 选择让我从计算机上的可用驱动程序列表中选取&lt;/p>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29.png"
+width="300"
+height="188"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29_hubf78db93f4d683a8c1505f155b23100e_17130_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%284%29_hubf78db93f4d683a8c1505f155b23100e_17130_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Step 3"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="382px"
+>&lt;/p>
+&lt;p>④ 选择需要的驱动程序并安装&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>查找驱动安装程序坐在目录&lt;br>
+在文件管理器中搜索 “Drivers” 文件，打开后便能看到所有驱动的安装程序&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>上OEM厂家或是相关设备厂家的官网查询并下载安装程序&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="五设备出现了错误">五、设备出现了错误&lt;/h2>
+&lt;h3 id="1通用的处理流程">1.通用的处理流程&lt;/h3>
+&lt;p>针对驱动出现故障的设备，可以在设备管理器中，右键出现黄色感叹号的设备，选择更新驱动程序尝试解决。&lt;/p>
+&lt;p>或者右键点击该设备，在设备位置中查找错误代码，然后根据设备管理器错误代码列表，了解下一步该如何做。&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>查看错误代码：&lt;/p>
+&lt;ol>
+&lt;li>打开设备的属性，然后选择详细信息&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29.png"
+width="300"
+height="359"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29_hu620093a00c35306fd90507a9617aa59b_27170_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%286%29_hu620093a00c35306fd90507a9617aa59b_27170_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Detail"
+class="gallery-image"
+data-flex-grow="83"
+data-flex-basis="200px"
+>&lt;/p>
+&lt;ol start="2">
+&lt;li>在属性选项处选择错误代码&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29.png"
+width="500"
+height="313"
+srcset="https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29_huc7a894ca6448d65b5d2bd1dccd2e9764_26758_480x0_resize_box_3.png 480w, https://scau-jiwei.gitee.io/p/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8%E3%81%AE%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%287%29_huc7a894ca6448d65b5d2bd1dccd2e9764_26758_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Code"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>可以上 &lt;strong>&lt;a class="link" href="%28https://support.microsoft.com/zh-cn/topic/windows-%E4%B8%AD-%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8-%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81-524e9e89-4dee-8883-0afa-6bca0456324e%29" >微软官网&lt;/a>&lt;/strong> 查询错误代码&lt;/p>
+&lt;h3 id="一些例子">一些例子&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>鼠标、U盘等外设出现问题&lt;/strong>：&lt;br>
+① 重新插拔下设备，保证设备正确连接&lt;br>
+② 使用设备管理器更新驱动&lt;br>
+③ 使用驱动精灵或者驱动人生等第三方软件更新修复驱动&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>指纹识别驱动错误&lt;/strong>:&lt;br>
+在锁屏界面触摸指纹感应器（电源键）时，感应器无反应，即屏幕不显示任何错误提示；并且进入指纹设置，删除指纹模板重新录入时触摸电源键仍无反应&lt;/p>
+&lt;ul>
+&lt;li>这有可能是系统升级导致加载Intel ME驱动异常所致的&lt;/li>
+&lt;/ul>
+&lt;p>解决方法：&lt;/p>
+&lt;ol>
+&lt;li>将电脑更新一次后重启，系统会自动更新，如果关机的时候会出现“更新并关机”选项，那基本上重启后应该就能解决了&lt;/li>
+&lt;li>打开设备管理器，找到生物识别设备，看看里面有没个黄色三角，有的话就好办了，右键单击更新，随后重新录入指纹即可&lt;/li>
+&lt;li>把生物驱动中的指纹识别驱动卸载了，再在官网上重新下载一个&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
