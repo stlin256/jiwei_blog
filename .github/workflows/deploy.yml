@@ -19,7 +19,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true # Uncomment this if you need SCSS/SASS support
+          extended: true # Uncomment this if you need SCSS/SASS support
 
       - name: Build
         run: hugo --minify
